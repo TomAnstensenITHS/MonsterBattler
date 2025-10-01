@@ -1,0 +1,20 @@
+Vad skall spelet göra?
+    - Ge spelaren en karaktär som den kontrollerar.
+    - Spelaren möter sedan ett antal monster i en färdigsatt ordning. Tänk punch out.
+    - Spelarens karaktär är en riddare-arketyp som har attackera, skydda, och hela sig.
+
+
+Hur skall spelet spelas?
+    - Textbaserad strid.
+    - Spelaren gör ett val utifrån två eller tre kommandon.
+    - De olika monstren har ett förbestämt handlingsmönster.
+
+
+Steg 1: Skapa en spelarklass. Skall ha ett namn, ett vapen, en sköld. Skall ha en maxhälsa och en nuvarande hälsa.
+Steg 2: Skapa en monsterklass. Skall ha namn på monstret, tre handlingar som monstret kan utföra, maxhälsa och nuvarande hälsa.
+
+steg 3: Skapa en klass eller metod för strider.
+Steg 4: Initiera striden.
+Steg 5: Hjälpmetoder för snyggare textformatering.
+
+Köra programmet mha ett gui?
