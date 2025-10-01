@@ -2,20 +2,14 @@ package Resources;
 import java.util.Scanner;
 
 public class HelpMethods{
-    public void runGame(){
-        setup();
-        introduction();
-        runCombat();
-        outro();
-    }
 
     void setup(){
-
+        player
     }
-    void introduction(){
-
+    void introduction(Player player){
+        Scanner sc = new Scanner(System.in);
         System.out.println("Whats your name?");
-        player.name;
+        player.name = sc.nextLine();
         System.out.println("Now get in there and fight, maggot!");
     }
     void runCombat(){
@@ -23,5 +17,8 @@ public class HelpMethods{
     }
     void outro(){
 
+    }
+    void printLines(){
+        System.out.print("\n---------------------------\n");
     }
 }
